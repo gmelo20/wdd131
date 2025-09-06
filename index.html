@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Gabriel Galvao de Albuquerque Melo</title>
+    <meta name="description" content="WDD 131 – Dynamic Web Fundamentals student home page for Gabriel Melo.">
+    <meta name="author" content="Gabriel Melo">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" type="image/png" href="images/profile.webp">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="site-title">
+          <h2><span id="course-title">WDD 131 – Dynamic Web Fundamentals</span></h2>
+          <nav aria-label="Primary">
+            <ul>
+              <li><a href="https://www.linkedin.com/in/ggmelo2000/" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+              <li><a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas (BYU-Pathway)</a></li>
+              <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng&id=p27#p27" target="_blank" rel="noopener">Favorite Scripture</a></li>
+              <li><span class="muted">Final Project Folder (TBD)</span></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Gabriel Melo</h1>
+
+
+      <div class="grid">
+ 
+        <section class="card">
+          <header>
+            <h2>About Me</h2>
+            <p class="muted">Student of web development living in Montevideo, Uruguay.</p>
+          </header>
+          <div class="body">
+            <img src="images/profile.webp" alt="Portrait of Gabriel">
+            <div>
+              <p>
+                I love building websites, creating content, and learning programming fundamentals.
+                I love play guitar and play games and soccer and
+                enjoy spending time with my family.
+              </p>
+              <p class="muted">
+                Tech interests: HTML, CSS, JavaScript, databases, and modern frontend tooling.
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="card">
+          <header>
+            <h2>Living in Uruguay</h2>
+            <p class="muted">A glimpse of my life with my wife in Montevideo.</p>
+          </header>
+          <div class="body">
+            <img src="images/uy.png" alt="Uruguayan flag" class="flag" width="200" height="120" loading="lazy">
+            <div>
+              <p>
+                I moved to Uruguay with my wife, and I truly love this country. It has a
+                unique and different culture, well-defined seasons, and one thing that unites
+                everyone here: the tradition of drinking <strong>mate</strong>.
+              </p>
+              <ul>
+                <li>Proud to live in Montevideo with my wife.</li>
+                <li>Amazing cultural mix and warm people.</li>
+                <li>Four distinct seasons throughout the year.</li>
+                <li>Mate is part of everyday life.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; <span id="currentyear"></span> • Gabriel Melo • Montevideo, Uruguay</p>
+        <p id="lastModified" class="muted"></p>
+      </div>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+  </body>
+</html>
