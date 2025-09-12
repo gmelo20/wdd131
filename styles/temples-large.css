@@ -1,0 +1,16 @@
+/* Larger screen adjustments */
+@media (min-width: 600px) {
+  nav ul {
+    gap: 2rem;
+  }
+
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
