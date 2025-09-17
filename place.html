@@ -8,12 +8,12 @@
     <meta name="author" content="Gabriel Melo">
     <link rel="stylesheet" href="styles/place.css">
     <script src="scripts/place.js" defer></script>
-        <link rel="icon" type="image/svg+xml" href="images/weather.svg">
+    <link rel="icon" type="image/svg+xml" href="images/weather.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="images/weather-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/weather-16x16.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="site-header">
@@ -24,17 +24,19 @@
         <section class="hero">
             <div class="hero-container">
                 <picture class="hero-image">
-                    <img src="images/mvd-uy.webp" alt="Montevideo hero image">
+                    <source srcset="images/mvd-uy.webp" type="image/webp">
+                    <img src="images/mvd-uy.jpg" alt="Montevideo hero image">
                 </picture>
                 <picture class="hero-image">
-                    <img src="images/pdl-uy.webp" alt="Punta del Este hero image">
+                    <source srcset="images/pdl-uy.webp" type="image/webp">
+                    <img src="images/pdl-uy.jpg" alt="Punta del Este hero image">
                 </picture>
             </div>
             <div class="hero-text">
                 <h2>About Uruguay</h2>
                 <p>
-                    Uruguay is a small country in South America, known for its beautiful beaches, 
-                    historic cities, and rich culture. Montevideo is the capital and largest city, 
+                    Uruguay is a small country in South America, known for its beautiful beaches,
+                    historic cities, and rich culture. Montevideo is the capital and largest city,
                     while Punta del Este is a popular tourist destination famous for its beaches and nightlife.
                 </p>
             </div>
