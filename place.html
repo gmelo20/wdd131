@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather in Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+<link rel="icon" type="images/weather.png" href="images/weather.png">
+
+</head>
+<body>
+    <header class="site-header">
+        <h1>Weather in Montevideo</h1>
+    </header>
+
+    <main>
+       <section class="hero">
+    <div class="hero-container">
+        <!-- Montevideo -->
+        <picture class="hero-image">
+            <img src="images/mvd-uy.jpg" alt="Montevideo hero image">
+        </picture>
+
+        <!-- Punta del Este -->
+        <picture class="hero-image">
+            <img src="images/pdl-uy.jpg" alt="Punta del Este hero image">
+        </picture>
+    </div>
+    <div class="hero-text">
+        <br><h2>About Uruguay</h2>
+        <p>
+            Uruguay is a small country in South America, known for its beautiful beaches, 
+            historic cities, and rich culture. Montevideo is the capital and largest city, 
+            while Punta del Este is a popular tourist destination famous for its beaches and nightlife.
+        </p>
+    </div>
+</section>
+
+
+        <!-- Climate Section -->
+        <section class="climate">
+            <h2>Clima <span class="weather-icon">⛅</span></h2>
+            <p>Temperature: <span id="temperature">10°C</span></p>
+            <p>Wind Speed: <span id="windSpeed">20 km/h</span></p>
+            <p>Wind Chill: <span id="windChill">Calculating...</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Check out my wireframe: <a href="WEATHER.drawio.html" target="_blank">Open Wireframe</a></p>
+        <p>&copy; <span id="currentYear"></span> Montevideo Weather. Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
