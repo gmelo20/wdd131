@@ -28,6 +28,11 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  background: #0a0a0a;
+  border-radius: 5px;
+}
+
 main {
   padding: 1rem;
 }
