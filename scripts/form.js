@@ -8,17 +8,15 @@ const products = [
 
 const productSelect = document.getElementById("product");
 
-// Placeholder option
 const placeholder = document.createElement("option");
 placeholder.textContent = "Select a Product ...";
 placeholder.disabled = true;
 placeholder.selected = true;
 productSelect.appendChild(placeholder);
 
-// Populate dynamically
 products.forEach(product => {
     const option = document.createElement("option");
-    option.value = product.id;      // id como value
-    option.textContent = product.name; // name como texto
+    option.value = product.id;
+    option.textContent = product.name;
     productSelect.appendChild(option);
 });
