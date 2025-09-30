@@ -6,8 +6,8 @@
     <title>Product Review Form</title>
     <meta name="description" content="Submit your product review and rating for our amazing products.">
     <meta name="author" content="Gabriel Melo">
-    <link rel="stylesheet" href="styles/form.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 <body>
     <header>
@@ -16,9 +16,7 @@
 
     <form method="get" action="review.html" id="reviewForm">
         <label for="product">Product Name:</label>
-        <select id="product" name="product" required>
-            <option value="" disabled selected>Select a Product ...</option>
-        </select>
+        <select id="product" name="product" required></select>
 
         <fieldset>
             <legend>Overall Rating:</legend>
@@ -34,18 +32,14 @@
 
         <fieldset>
             <legend>Useful Features:</legend>
-            <input type="checkbox" id="feature1" name="features" value="Ease of Use">
-            <label for="feature1">Ease of Use</label>
-            <input type="checkbox" id="feature2" name="features" value="Performance">
-            <label for="feature2">Performance</label>
-            <input type="checkbox" id="feature3" name="features" value="Design">
-            <label for="feature3">Design</label>
-            <input type="checkbox" id="feature4" name="features" value="Reliability">
-            <label for="feature4">Reliability</label>
+            <input type="checkbox" id="feature1" name="features" value="Ease of Use"><label for="feature1">Ease of Use</label>
+            <input type="checkbox" id="feature2" name="features" value="Performance"><label for="feature2">Performance</label>
+            <input type="checkbox" id="feature3" name="features" value="Design"><label for="feature3">Design</label>
+            <input type="checkbox" id="feature4" name="features" value="Reliability"><label for="feature4">Reliability</label>
         </fieldset>
 
         <label for="review">Written Review:</label>
-        <textarea id="review" name="review" rows="4" cols="50"></textarea>
+        <textarea id="review" name="review" rows="4"></textarea>
 
         <label for="username">Your Name (optional):</label>
         <input type="text" id="username" name="username">
