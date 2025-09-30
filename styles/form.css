@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #002147; /* azul marinho */
+    padding: 15px 0;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 2px solid #002147; /* borda azul marinho */
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #002147;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #002147;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #004080;
+}
+
+fieldset {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #002147;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
