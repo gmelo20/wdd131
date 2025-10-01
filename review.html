@@ -18,13 +18,6 @@
         <p>&copy; 2025 Gabriel Melo</p>
     </footer>
 
-    <script>
-        // Increment review counter using localStorage
-        let reviewCount = localStorage.getItem("reviewCount") || 0;
-        reviewCount++;
-        localStorage.setItem("reviewCount", reviewCount);
-
-        document.getElementById("counter").textContent = `Total reviews submitted: ${reviewCount}`;
-    </script>
+    <script src="scripts/review.js"></script>
 </body>
 </html>
