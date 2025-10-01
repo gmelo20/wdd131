@@ -1,18 +1,14 @@
 const products = [
-    { id: "fc-1888", name: "flux capacitor" },
-    { id: "fc-2050", name: "power laces" },
-    { id: "fs-1987", name: "time circuits" },
-    { id: "ac-2000", name: "low voltage reactor" },
-    { id: "jj-1969", name: "warp equalizer" }
+    { id: "fc-1888", name: "Flux Capacitor" },
+    { id: "fc-2050", name: "Power Laces" },
+    { id: "fs-1987", name: "Time Circuits" },
+    { id: "ac-2000", name: "Low Voltage Reactor" },
+    { id: "jj-1969", name: "Warp Equalizer" }
 ];
 
 const productSelect = document.getElementById("product");
 
-const placeholder = document.createElement("option");
-placeholder.textContent = "Select a Product ...";
-placeholder.disabled = true;
-placeholder.selected = true;
-productSelect.appendChild(placeholder);
+productSelect.innerHTML = '<option value="" disabled selected>Select a Product ...</option>';
 
 products.forEach(product => {
     const option = document.createElement("option");
